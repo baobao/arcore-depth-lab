@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.google.ar.core.arfoundation.extensions": {
+      "version": "file:package",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.5",
+        "com.unity.xr.arcore": "4.1.5"
+      }
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
